@@ -1,4 +1,4 @@
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
+import {HashRouter as Router, Link, Route, Routes} from "react-router-dom";
 import {useState, useEffect} from "react";
 import './App.css';
 import Home from "./Pages/Home.jsx";
@@ -23,7 +23,7 @@ function App() {
     return (
         <div style={{padding: "20px", fontFamily: "Arial, sans-serif"}}>
             <h1>My Portfolio</h1>
-            <BrowserRouter>
+            <Router>
 
                 <nav className="navbar">
                     <div className="nav-left">
@@ -70,7 +70,7 @@ function App() {
                     <Route path="/projects" element={<Projects/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                 </Routes>
-            </BrowserRouter>
+            </Router>
         </div>
     )
 }
