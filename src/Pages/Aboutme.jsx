@@ -25,10 +25,10 @@ export default function Aboutme() {
                     Here is a quick overview of my skills:
                 </p>
                 <ul>
-                    <li>💻 <strong>Frontend:</strong> React.js, HTML, CSS, JavaScript</li>
-                    <li>⚙️ <strong>Backend:</strong> Java</li>
-                    <li>🗄️ <strong>Databases:</strong> MySQL </li>
-                    <li>🧠 <strong>Other Skills:</strong> REST APIs, Python, Git/GitHub, problem-solving, and debugging</li>
+                    <li><strong>Frontend:</strong> React.js, HTML, CSS, JavaScript</li>
+                    <li><strong>Backend:</strong> Java</li>
+                    <li><strong>Databases:</strong> MySQL </li>
+                    <li><strong>Other Skills:</strong> REST APIs, Python, Git/GitHub, problem-solving, and debugging</li>
                 </ul>
             </section>
 

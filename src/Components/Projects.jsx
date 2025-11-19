@@ -1,7 +1,9 @@
-import react from "../assets/react.svg";
 import wordguess from "../assets/wordguess.png";
-import blackjack from "../assets/blackjack.png"
-import snake from "../assets/snake.png"
+import blackjack from "../assets/blackjack.png";
+import snake from "../assets/snake.png";
+import slotmachine from "../assets/slotmachine.png";
+import TicTacToeExtended from "../assets/tictactoeextended.png";
+import tictactoe from "../assets/tictactoe.png"
 
 export default function Project() {
     const projects = [
@@ -23,6 +25,25 @@ export default function Project() {
             image: snake,
             link: "https://github.com/GuyNeeman/Snake",
         },
+        {
+            title: "Slot Machine",
+            description: "Slot Machine game made with React.",
+            image: slotmachine,
+            link: "https://github.com/GuyNeeman/Slot-Machine",
+        },
+        {
+            title: "TicTacToe Extended",
+            description: "TicTacToe Extended version game made with React",
+            image: TicTacToeExtended,
+            link: "https://github.com/GuyNeeman/TicTacToeReactExtended"
+        },
+        {
+            title: "TicTacToe",
+            description: "TicTacToe game made with React.",
+            image: tictactoe,
+            link: "https://github.com/GuyNeeman/TicTacToeReact"
+        }
+
     ];
 
     return (
