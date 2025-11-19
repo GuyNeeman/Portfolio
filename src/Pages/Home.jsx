@@ -48,9 +48,9 @@ export default function Home() {
                     Here are a few of my favorite projects that I made:
                 </p>
                 <ul>
-                    <li>🔹 <strong>Portfolio Website</strong> — the website you are currently on.</li>
-                    <li>🔹 <strong>Multiple Games</strong> — plenty of games made with ReactJS.</li>
-                    <li>🔹 <strong>Minecraft Plugin</strong> — custom Minecraft plugins for Servers.
+                    <li><strong>Portfolio Website</strong> — the website you are currently on.</li>
+                    <li><strong>Multiple Games</strong> — plenty of games made with ReactJS.</li>
+                    <li><strong>Minecraft Plugin</strong> — custom Minecraft plugins for Servers.
                     </li>
                 </ul>
                 <Link to="/projects" className="home-link">→ See all projects</Link>
