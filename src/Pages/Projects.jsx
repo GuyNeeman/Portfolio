@@ -11,12 +11,6 @@ export default function Projects() {
                 </p>
             </section>
             <Project/>
-
-            <section className="home-section">
-                <p>
-                    This is just a few of my projects. You can find more on my GitHub.
-                </p>
-            </section>
         </>
     )
 }

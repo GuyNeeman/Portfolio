@@ -68,29 +68,6 @@ h1 {
   color: var(--text-color);
 }
 
-@media (max-width: 768px) {
-  .burger {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-    position: absolute;
-    top: 60px;
-    left: 20px;
-    background: var(--bg-color);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-}
-
 .switch {
   position: relative;
   display: inline-block;
@@ -164,6 +141,7 @@ input:checked + .slider:before {
   overflow: hidden;
   width: 100%;
   max-width: 360px;
+  flex: 1 1 auto;
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -271,4 +249,31 @@ input:checked + .slider:before {
 
 .home-link:hover {
   color: #3a7ad9;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background: var(--bg-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }

@@ -30,13 +30,13 @@ export default function Home() {
             <section className="home-section">
                 <h3>What I Do</h3>
                 <ul>
-                    <li><strong>Web Development</strong> — building responsive, interactive websites
+                    <li><strong>Web Development</strong> - building responsive, interactive websites
                         using React.js or Vanilla JavaScript and HTML.
                     </li>
-                    <li><strong>Spring Boot</strong> — developing backend systems with REST APIs and
+                    <li><strong>Spring Boot</strong> - developing backend systems with REST APIs and
                         Java-based frameworks.
                     </li>
-                    <li><strong>SQL & Databases</strong> — designing efficient database schemas and writing optimized
+                    <li><strong>SQL & Databases</strong> - designing efficient database schemas and writing optimized
                         queries.
                     </li>
                 </ul>
@@ -48,9 +48,9 @@ export default function Home() {
                     Here are a few of my favorite projects that I made:
                 </p>
                 <ul>
-                    <li><strong>Portfolio Website</strong> — the website you are currently on.</li>
-                    <li><strong>Multiple Games</strong> — plenty of games made with ReactJS.</li>
-                    <li><strong>Minecraft Plugin</strong> — custom Minecraft plugins for Servers.
+                    <li><strong>Portfolio Website</strong> - the website you are currently on.</li>
+                    <li><strong>Multiple Games</strong> - plenty of games made with ReactJS.</li>
+                    <li><strong>Minecraft Plugin</strong> - custom Minecraft plugins for Servers.
                     </li>
                 </ul>
                 <Link to="/projects" className="home-link">→ See all projects</Link>
